@@ -1,0 +1,184 @@
+body{
+    background-color: #111;
+    margin: 0px;
+}
+.container-fluid {
+    width: 70%;
+    font-family: 'Syncopate', sans-serif;
+}
+.title {
+    text-align: center;
+    color: #ddd;
+    min-height: 600px;
+    background-image: url(http://www.cosmos-online.ru/images/oboi//oboi-kosmos-46.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+.title input{
+    width: 40%;
+    height: 35px;
+    border-radius: 7px;
+    margin-top: 25rem;
+    outline-color: #dd5347;
+    color: #333;
+}
+button{
+    color: #fff;
+    background-color: #080808;
+    border: none;
+}
+button:hover{
+    color: #dd5347;
+}
+h1 {
+    font-size: 10rem;
+}
+h2 {
+    font-size: 5rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.navbar-inverse {
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #dd5347;
+}
+.section {
+    height: 300px;
+    opacity: 0.5;
+}
+.section:first-child {
+    padding-right: 10px;
+    padding-left: 0px;
+}
+.section:nth-child(2) {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.section:nth-child(3) {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.section:hover {
+    opacity: 1;
+}
+.section div {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section a{
+    color: #fff;
+    text-decoration: none;
+}
+h3 {
+    font-size: 5rem;
+}
+.history {
+    background-image: url(https://cdn.brainpop.com/science/space/mars/screenshot2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.today {
+    background-image: url(https://tctechcrunch2011.files.wordpress.com/2016/03/mars-2020.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.future {
+    background-image: url(http://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/import/2013/images/2011/08/6a00d8341bf67c53ef01539121ea13970b-800wi.jpeg?itok=qo8H18U4);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.popup_container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup1_content{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+.popup1_content h2{
+    margin-bottom: 2rem;
+}
+.popup1_content p{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.popup1_content button{
+    margin-top: 5rem;
+}
+
+.popup2_content{
+    width: 60%;
+    height: 80vh;
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Syncopate', sans-serif;
+    overflow: auto;
+    position: relative;
+    background-color: #eee;
+}
+.popup2_content article {
+    display: flex;
+    height: 200px;
+    margin-bottom: 1rem;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+.popup2_content article:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.popup2_content article img{
+    width: 50%;
+}
+.popup2_content h2{
+    margin-bottom: 1rem;
+    background-color: #111;
+    color: #fff;
+}
+.popup2_content button, .popup3_content button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.popup2_content article p{
+    margin-top: 1rem;
+}
+.popup3_content{
+    width: 40%;
+    height: 70vh;
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Syncopate', sans-serif;
+    overflow: auto;
+    position: relative;
+    background-color: #eee;
+}
+.popup3_content input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
