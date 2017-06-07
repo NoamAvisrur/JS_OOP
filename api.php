@@ -7,3 +7,4 @@ $user_email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $user = $user_first_name . " " . $user_last_name . " " . $user_email;
 
 file_put_contents("log.txt", $user, FILE_APPEND);
+http_response_code(201);
